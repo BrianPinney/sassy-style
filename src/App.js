@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import './styles/App.scss';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+    <h1>Hello Universe</h1>
+    <h2>I'm in the Milkyway</h2>
+    <h3>3rd Rock from the Sun</h3>
+    <div className='tera'>
+      <h3>Earth</h3>
+      <ul>
+        <li>age: 4.5 billian years</li>
+        <li>radius: 3,9588 miles</li>
+        <li>mass: 5,972 * 10^24 kg</li>
+      </ul>
     </div>
+    <div>
+      <button className='button'>Button</button>
+      <button className='button-prime'>Prime</button>
+    </div>
+    </>
   );
 }
 

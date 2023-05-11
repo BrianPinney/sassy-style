@@ -1,0 +1,55 @@
+$primarycolor : #f00;
+$primary-color : red;
+$secondarycolor : #0f0;
+
+h1 {
+  color: $primarycolor;
+}
+h2 {
+  color: $primary-color;
+  background-color: $primarycolor;
+}
+
+h3 {
+color: $primary_color;
+}
+
+$fourthcolor : cyan;
+
+.tera {
+  background-color: black;
+  ul { 
+    color : $fourthcolor;
+    li {
+      background-color: navy;
+    }
+  }
+}
+
+.button {
+  padding: 10px;
+  background-color: red;
+  color: white;
+  
+  &:hover {
+    color: #000;
+    background-color: orange;
+    transform: scaleY(1.5)
+  }
+  &-prime {
+    background-color: cyan;
+    font-size: 15px;
+    padding: 10px;
+    &:hover {
+    color: white;
+    background-color: blueviolet;
+    transform: scaleX(1.5);
+      }
+   }
+}
+
+
+
+
+
+
